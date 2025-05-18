@@ -9,4 +9,14 @@
 
 @implementation LPBaseReadModule
 
++ (NSBundle *)bundle {
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:self.moduleName ofType:@".bundle"];
+    return [NSBundle bundleWithPath:bundlePath];
+}
+
++ (NSString *)moduleName {
+    return [NSStringFromClass(self) componentsSeparatedByString:@"."].firstObject;
+}
+
+
 @end

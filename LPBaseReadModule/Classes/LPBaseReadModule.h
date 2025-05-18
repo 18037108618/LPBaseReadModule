@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LPBaseReadModule : NSObject
 
++ (NSBundle *)bundle;
+
++ (NSString *)moduleName;
+
 @end
 
 NS_ASSUME_NONNULL_END
