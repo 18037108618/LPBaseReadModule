@@ -1,0 +1,22 @@
+{
+  "name": "LPBaseReadModule",
+  "version": "0.1.0",
+  "summary": "A short description of LPBaseReadModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liping/LPBaseReadModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liping": "1169440180@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liping/LPBaseReadModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LPBaseReadModule/Classes/**/*"
+}

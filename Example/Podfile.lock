@@ -1,0 +1,16 @@
+PODS:
+  - LPBaseReadModule (0.1.0)
+
+DEPENDENCIES:
+  - LPBaseReadModule (from `../`)
+
+EXTERNAL SOURCES:
+  LPBaseReadModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LPBaseReadModule: e9ceeca9a371a6ac1dcb28e1d950cdd3f65631aa
+
+PODFILE CHECKSUM: 8e3c05e22914d200d214b5eb387caf6d560f9ac9
+
+COCOAPODS: 1.16.2

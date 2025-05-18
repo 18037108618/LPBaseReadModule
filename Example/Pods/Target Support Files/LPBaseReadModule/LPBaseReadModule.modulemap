@@ -1,0 +1,6 @@
+framework module LPBaseReadModule {
+  umbrella header "LPBaseReadModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
